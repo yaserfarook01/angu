@@ -1,0 +1,9 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  id: 'Deploy to Cloud Storage'
+  args:
+  - 'rsync'
+  - '-r'
+  - '-d'
+  - 'dist/angularapp/'
+  - 'gs://traildscla/angularapp/'
