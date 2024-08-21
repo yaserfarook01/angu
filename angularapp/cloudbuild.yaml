@@ -5,5 +5,5 @@ steps:
   - 'rsync'
   - '-r'
   - '-d'
-  - 'dist/angularapp/'
+  - 'angularapp/dist/angularapp/'
   - 'gs://traildscla/angularapp/'
